@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "greet",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -27,12 +13,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "ETHER need to pay for a tansaction = gas spent * gas price GAS is a unit of computation GAS SPENT is the total amount of GAS used in a transaction GAS PRICE is how much ETHER you are willing to pay per GAS",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"ByExample/HelloWorld.sol": "HelloWorld"
+			"ByExample/Gas.sol": "Gas"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +33,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ByExample/HelloWorld.sol": {
-			"keccak256": "0xefddd67db7cac15b47b1f77d0b337dbce429ccfe517e2a031542d04baa712a28",
+		"ByExample/Gas.sol": {
+			"keccak256": "0x5f86675aee345e8d81cb78d093be6edbf141fe59a244366217dcb0e65f6edb93",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://388c305e04d21a876017e6066eba608e8e6701cf0ecb40a0aeb3f528a445610b",
-				"dweb:/ipfs/QmVsuaF4CrL4CtvHeDmq4SBb3Fs82Y8axk6xg2kbDFE1YQ"
+				"bzz-raw://8263bcdb88703f97b99cd343d0d6b9ad585f9ea41703d527fe541ed54207b1e5",
+				"dweb:/ipfs/Qmaa3wBmHVGgEJ5phxzcfrT4uYq85bAtqmj6g31ebJHxj3"
 			]
 		}
 	},
