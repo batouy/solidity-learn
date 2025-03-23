@@ -4,7 +4,28 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -34,11 +55,11 @@
 	},
 	"sources": {
 		"ByExample/Gas.sol": {
-			"keccak256": "0x5f86675aee345e8d81cb78d093be6edbf141fe59a244366217dcb0e65f6edb93",
+			"keccak256": "0x021fdec7552fb224ab5cd0a0f01dd92d2aa8adb2655317f50d61a45b9a0b9815",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8263bcdb88703f97b99cd343d0d6b9ad585f9ea41703d527fe541ed54207b1e5",
-				"dweb:/ipfs/Qmaa3wBmHVGgEJ5phxzcfrT4uYq85bAtqmj6g31ebJHxj3"
+				"bzz-raw://31c82d665c25130dd615859a639a7cfa8d05d35a7221ef694bfa7aabf21a8127",
+				"dweb:/ipfs/Qmd4eb1uvE6G1WjcVVanudtttY3G9HacDBaEJZT2vqk8iv"
 			]
 		}
 	},
