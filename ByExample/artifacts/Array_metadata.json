@@ -44,6 +44,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "example",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -52,6 +59,32 @@
 					}
 				],
 				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -79,6 +112,39 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "push",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -110,11 +176,11 @@
 	},
 	"sources": {
 		"ByExample/Array.sol": {
-			"keccak256": "0x464f19d81578a7596dd443870dd1f030991b2707021cbc9ba591be59cb48ecf9",
+			"keccak256": "0xeb6e97b05579afa4fac4a99cc6f8cea2e02472f71b2e3c5f6726d09421eae183",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9a57957027270021923fd11778c5b81891ac724a6a4ed5006d4b213bbebcdd69",
-				"dweb:/ipfs/Qmf7pUxnZtvWDpSAMwdJ7MbLArcvsZFNFFmk7cztDRBqtg"
+				"bzz-raw://db9139bd53901ac51e146914636579c2e38277c3c9a33b9948bf308c5ce22e68",
+				"dweb:/ipfs/QmY45AvwcR8JWA45RudA3BxRuFaQxAC8iyFmAiZBMdjhWg"
 			]
 		}
 	},
