@@ -18,4 +18,17 @@ contract Loop {
             j++;
         }
     }
+
+    uint256[] public largeArray;
+
+    function inefficientLoop() public view {
+        for (uint256 i = 0; i < largeArray.length; i++) {
+            // Accessing storage repeatedly within a loop is costly
+            // Instead, consider breaking loops into smaller chunks or processing data off-chain to save on gas.
+            uint256 value = largeArray[i];
+            if (value > 10) {
+                break;
+            }
+        }
+    }
 }

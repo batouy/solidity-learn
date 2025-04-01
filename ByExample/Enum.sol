@@ -10,7 +10,16 @@ contract Enum {
         Canceled
     }
 
+    enum TrafficLight {
+        RED,
+        YELLOW,
+        GREEN
+    }
+
+    event LightChanged(TrafficLight);
+
     Status public status;
+    TrafficLight public tl;
 
     function get() public view returns (Status) {
         return status;
@@ -27,5 +36,10 @@ contract Enum {
     // delete resets the enum to its first value, 0
     function reset() public {
         delete status;
+    }
+
+    function lightChange() public {
+        tl = TrafficLight.RED;
+        emit LightChanged(tl);
     }
 }
